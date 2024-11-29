@@ -1,5 +1,7 @@
 # Reto2-POO-grupo-4
-relaciones de clases, composiciones, propiedades y comportamientos para un edificio de apartamentos.
+Relaciones de clases, composiciones, propiedades y comportamientos para un edificio de apartamentos.
+
+
 
 
 
