@@ -35,7 +35,7 @@ classDiagram
         +pagarDeuda()
         +solucionarInconvenientes()
     }
-    class Seguridad {
+    class PersonalSeguridad {
         +puesto: String
         +codigoTrabajador: int
         +salario: int
@@ -44,7 +44,7 @@ classDiagram
         +permitirSalidas()
         +VigilarEdificio()
     }
-    class Limpieza {
+    class PersonalLimpieza {
         +puesto: String
         +codigoTrabajador: int
         +salario: int
@@ -63,8 +63,8 @@ classDiagram
     Apartamento o-- Inquilino : ocupado por
     Edificio o-- Administrador : administrado por
     Residente <|-- Administrador
-    Residente <|-- Seguridad
-    Residente <|-- Limpieza
+    Residente <|-- PersonalSeguridad
+    Residente <|-- PersonalLimpieza
     Residente <|-- Inquilino
 
 ```
